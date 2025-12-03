@@ -19,15 +19,15 @@ public class Humain {
         return argent;
     }
 
-    private void parler(String texte) {
+    protected void parler(String texte) {
         System.out.println("(" + nom + ") - " + texte);
     }
 
-    private void gagnerArgent(int gain) {
+    protected void gagnerArgent(int gain) {
         argent += gain;
     }
 
-    private void perdreArgent(int perte) {
+    protected void perdreArgent(int perte) {
         argent -= perte;
     }
 
